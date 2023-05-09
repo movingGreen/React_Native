@@ -1,3 +1,11 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow
+ */
+
 import React from 'react';
 import {
   View,
@@ -12,7 +20,7 @@ import {
   WebView
 } from 'react-native-webview'
 
-import html_script from './html_script.js'
+import html_script from './html_script'
 
 class App extends React.Component {
 
